@@ -1,6 +1,6 @@
 // CSSアニメーションをループ再生する処理
 $(function(){
-  $("#opy").click(function(){
+  $("#obj").click(function(){
     if($(this).hasClass('purun')){
       $(this).removeClass('purun');
       $(this)[0].offsetWidth = $(this)[0].offsetWidth;
